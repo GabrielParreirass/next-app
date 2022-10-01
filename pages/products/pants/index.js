@@ -1,10 +1,10 @@
 import Link from "next/link"
-import Navbar from "../../../components/Navbar"
+
 
 export default function Pants() {
     return (
         <div>
-            <Navbar/>
+          
             <h1>Essa é a parte de calças</h1>
             <ul>
                 <li>

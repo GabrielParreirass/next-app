@@ -5,6 +5,19 @@ import styles from '../styles/Navbar.module.css'
 export default function Navbar() {
     return (
         <ul className={styles.navbar}>
+
+            <li>
+                <Link href={'/'}>
+                    <a>Home</a>
+                </Link>
+            </li>
+
+            <li>
+                <Link href={'/todos'}>
+                    <a>To Do</a>
+                </Link>
+            </li>
+
             <li>
                 <Link href={'/products'}>
                     <a>Produtos</a>
@@ -18,8 +31,8 @@ export default function Navbar() {
             </li>
 
             <li>
-                <Link href={'/'}>
-                    <a>Home</a>
+                <Link href={'/localization'}>
+                    <a>Localização</a>
                 </Link>
             </li>
         </ul>

@@ -1,8 +1,17 @@
 .container{
-
   height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
 
+.title{
+  background-image: url('/images/pattern.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: 100vw;
 }
